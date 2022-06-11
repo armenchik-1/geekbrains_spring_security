@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /security
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/geekbrains_spring_security
+    username: root
+    password: root
